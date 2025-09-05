@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
+os.system('cls')
 
 # Dataset de ejemplo
 df = px.data.gapminder()
